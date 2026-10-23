@@ -4,64 +4,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MilkPurchase - Official App</title>
+  <meta name="theme-color" content="#0878d1">
+  <title>MilkPurchase - Download</title>
   <style>
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f1f7fc;
       color: #19324b;
-      text-align: center;
     }
     header {
       background: #0878d1;
       color: white;
-      padding: 35px 15px;
+      padding: 30px 16px;
+      text-align: center;
+    }
+    .logo {
+      font-size: 48px;
     }
     main {
       max-width: 600px;
-      margin: 30px auto;
+      margin: 28px auto;
       padding: 0 16px;
     }
     .card {
       background: white;
-      border-radius: 16px;
-      padding: 25px;
-      box-shadow: 0 4px 16px #00000010;
+      padding: 24px;
+      border-radius: 18px;
+      box-shadow: 0 4px 18px #19324b12;
+      text-align: center;
     }
     .download {
       display: block;
-      padding: 15px;
+      margin: 24px 0 12px;
+      padding: 16px;
+      border-radius: 12px;
       background: #0878d1;
       color: white;
-      text-decoration: none;
-      border-radius: 10px;
       font-weight: bold;
-      margin-top: 20px;
+      text-decoration: none;
     }
+    .download:hover { background: #0664b1; }
+    .muted { color: #64748b; font-size: 14px; }
+    h2 { margin-bottom: 8px; }
+    li { margin: 10px 0; text-align: left; }
     footer {
-      padding: 25px;
-      color: #64748b;
+      text-align: center;
+      padding: 24px;
       font-size: 13px;
+      color: #64748b;
     }
   </style>
 </head>
 <body>
   <header>
-    <div style="font-size:48px">🥛</div>
+    <div class="logo">🥛</div>
     <h1>MilkPurchase</h1>
-    <p>Milk Collection & Farmer Payment Management</p>
+    <p>Simple milk collection and farmer payment management</p>
   </header>
 
   <main>
     <section class="card">
       <h2>Download MilkPurchase</h2>
-      <p>Manage milk collection, farmer payments and reports.</p>
-      <p>Latest version: Coming soon</p>
-      <p>Our Android app download will be available here soon.</p>
+      <p>Install the Android app on your phone.</p>
+
+      <p><strong>Latest version: 1.0</strong></p>
+      <p class="muted">Android application · APK file</p>
+
+      <a class="download"
+         href="https://github.com/YOUR-GITHUB-USERNAME/milkpurchase-website/releases/latest/download/MilkPurchase.apk">
+        Download APK
+      </a>
+
+      <p class="muted">
+        Only install updates published by the official MilkPurchase developer.
+      </p>
+    </section>
+
+    <section class="card" style="margin-top:20px">
+      <h2>How to install</h2>
+      <ol>
+        <li>Tap Download APK.</li>
+        <li>Open the downloaded APK file.</li>
+        <li>If prompted, allow installation from your browser.</li>
+        <li>Tap Install and follow the instructions.</li>
+      </ol>
+      <p class="muted">
+        Android may display a security warning for apps installed outside
+        Google Play. Only proceed when you trust the source.
+      </p>
     </section>
   </main>
 
-  <footer>MilkPurchase · Official app website</footer>
+  <footer>
+    MilkPurchase · Official app download page
+  </footer>
 </body>
 </html>
